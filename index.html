@@ -141,36 +141,50 @@
          }
 /*footer section*/
 
-#footer{
-        padding: 7% 15%;
-        text-align: center;
-        background-color: #ff4c68;
-        margin-top: -100px;
-       font-size: 20px;
-     }
-     .social-icon{
-        margin: 20px 10px;
-     }
-     @media(max-width:1028px){
-        #title{
-            text-align: center;
+    section {
+            margin-top: 20px;
         }
-        .title-image{
-            position: static;
-            transform: rotate(0);
+
+        footer {
+            display: grid;
+            grid-template-columns: 3fr 2.25fr 2.25fr 2.25fr 2.25fr;
+            font-family: Arial;
+            background-color: darkcyan;
+            color: white;
+            padding: 10px;
+            font-size: 16px;
+
         }
-     }
-     span{
-        color: white;
-     
-     }
-     i{
-        color: white;
-     }
-     span:hover{
-     
-        color: darkcyan;
-     }
+
+        .soical-bar {
+            margin-top: 20px;
+        }
+
+        .soical-bar span {
+            margin-right: 10px;
+        }
+
+        .footer-title {
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .footer-title~div {
+            margin-bottom: 10px;
+        }
+
+        .brand-footer {
+            font-size: 30px;
+            font-weight: bold;
+
+
+        }
+
+        marquee {
+            background-color: darkcyan;
+            color: white;
+            margin: 5px;
+        }
    
    </style>
    <script>
@@ -388,18 +402,7 @@
                                                 </div>
       
           </footer>
-    <footer id="footer">
-        <span class="bi bi-twitter"></span>
-        <span class="bi bi-facebook"></span>
-        <span class="bi bi-instagram"></span>
-       <span class="bi bi-whatsapp"></span>
-    
-        
-      
-        <p>Copyright 2024 Tindog </p>
-    
-       
-    </footer>
+
     <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
